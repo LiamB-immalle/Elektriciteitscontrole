@@ -7,6 +7,25 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Ellipse x:Name="ell_ali" Fill="Black" HorizontalAlignment="Left" Height="60" Margin="73,43,0,0" Stroke="Black" VerticalAlignment="Top" Width="60"/>
+        <Ellipse x:Name="ell_jos" Fill="Black" HorizontalAlignment="Left" Height="60" Margin="138,43,0,0" Stroke="Black" VerticalAlignment="Top" Width="60"/>
+        <Ellipse x:Name="ell_kees" Fill="Black" HorizontalAlignment="Left" Height="60" Margin="203,43,0,0" Stroke="Black" VerticalAlignment="Top" Width="60"/>
+        <Ellipse x:Name="ell_rita" Fill="Black" HorizontalAlignment="Left" Height="60" Margin="268,43,0,0" Stroke="Black" VerticalAlignment="Top" Width="60"/>
+        <Ellipse x:Name="ell_john" Fill="Black" HorizontalAlignment="Left" Height="60" Margin="333,43,0,0" Stroke="Black" VerticalAlignment="Top" Width="60"/>
+        <Ellipse x:Name="ell_fred" Fill="Black" HorizontalAlignment="Left" Height="60" Margin="398,43,0,0" Stroke="Black" VerticalAlignment="Top" Width="60"/>
+        <Button x:Name="but_ali" Content="Ali's huis" HorizontalAlignment="Left" VerticalAlignment="Top" Width="60" Click="ali_Click" Margin="73,108,0,0"/>
+        <Button x:Name="but_jos" Content="Jos' huis" HorizontalAlignment="Left" VerticalAlignment="Top" Width="60" Click="jos_Click" Margin="138,108,0,0"/>
+        <Button x:Name="but_kees" Content="Kees huis" HorizontalAlignment="Left" VerticalAlignment="Top" Width="60" Click="kees_Click" Margin="203,108,0,0"/>
+        <Button x:Name="but_rita" Content="Rita's huis" HorizontalAlignment="Left" VerticalAlignment="Top" Width="60" Click="rita_Click" Margin="268,108,0,0"/>
+        <Button x:Name="but_john" Content="Johns huis" HorizontalAlignment="Left" VerticalAlignment="Top" Width="60" Click="john_Click" Margin="333,108,0,0"/>
+        <Button x:Name="but_fred" Content="Freds huis" HorizontalAlignment="Left" VerticalAlignment="Top" Width="60" Click="fred_Click" Margin="398,108,0,0"/>
+        <TextBlock x:Name="text_ali" HorizontalAlignment="Left" Margin="73,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Text="0"/>
+        <TextBlock x:Name="text_jos" HorizontalAlignment="Left" Margin="138,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Text="0"/>
+        <TextBlock x:Name="text_kees" HorizontalAlignment="Left" Margin="203,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Text="0"/>
+        <TextBlock x:Name="text_rita" HorizontalAlignment="Left" Margin="268,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Text="0"/>
+        <TextBlock x:Name="text_john" HorizontalAlignment="Left" Margin="333,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Text="0"/>
+        <TextBlock x:Name="text_fred" HorizontalAlignment="Left" Margin="398,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Text="0"/>
+        <TextBlock x:Name="brandtijd" HorizontalAlignment="Left" Margin="8,133,0,0" TextWrapping="Wrap" Text="Brandtijd:" VerticalAlignment="Top" Width="60"/>
+
     </Grid>
 </Window>
